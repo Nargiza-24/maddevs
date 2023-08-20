@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+#dataContainer {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+thead th {
+    background-color: #97a3c9;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #898888;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #898888;
+}
