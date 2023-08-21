@@ -68,6 +68,8 @@ class TableRenderer {
                 // применение доп. стилей для выбранных элементов
                 if (typeof cellData === 'object' && cellData.color === 'selected') {
                     td.style.fontWeight = 'bold'; 
+                } if (typeof cellData === 'object' && cellData.back === 'special'){
+                    td.style.backgroundColor = '#ebedf6'
                 }
                 tr.appendChild(td);
             });
@@ -99,8 +101,8 @@ function renderChart(array) {
           {
             label: "Total by project",
             data: data,
-            backgroundColor: "rgba(75, 192, 192, 0.2)",
-            borderColor: "rgba(75, 192, 192, 1)",
+            backgroundColor: "#ebedf6",
+            borderColor: "#898888",
             borderWidth: 1,
           },
         ],
